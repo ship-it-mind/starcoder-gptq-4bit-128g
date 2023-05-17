@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "starcoder-gptq-4bit-128g"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "starcoder_gptq_4bit_128g"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.29.2"
+auto-gptq = "^0.1.0"
+termcolor = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
